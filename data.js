@@ -56,4 +56,61 @@ const ITEMS = [
     spec:"Tostadora eléctrica.",
     precio:28000, cantidad:1, vendido:false, pagoUrl:"#",
     fotos:["fotos/09-tostadora.jpg"] },
+
+  // --- Equipamiento instalado (el comprador coordina desmontaje y retiro) ---
+
+  { n:10, nombre:"Aire acondicionado split", categoria:"electrodomesticos", estado:"muy-bueno",
+    spec:"Equipo split, frío/calor. Se entrega instalado; el comprador coordina el desmontaje y retiro.",
+    precio:180000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/10-aire-1.jpg","fotos/10-aire-2.jpg"] },
+
+  { n:11, nombre:"Panel divisor de cocina", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Panel divisor con estructura metálica y lamas. Fijo: se desinstala para retirar.",
+    precio:90000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/11-panel-cocina-1.jpg","fotos/11-panel-cocina-2.jpg"] },
+
+  { n:12, nombre:"Panel divisor de escalera (planta baja)", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Panel divisor de lamas de madera junto a la escalera. Se desinstala para retirar.",
+    precio:70000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/12-panel-escalera-pb.jpg"] },
+
+  { n:13, nombre:"Panel divisor de puestos de trabajo", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Panel separador de estaciones de trabajo. Se desinstala para retirar.",
+    precio:60000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/13-panel-puestos.jpg"] },
+
+  { n:14, nombre:"Panel divisor de escalera (planta alta)", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Panel divisor de lamas de madera, planta alta. Se desinstala para retirar.",
+    precio:60000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/14-panel-escalera-pa.jpg"] },
+
+  { n:15, nombre:"Cortinas (planta alta)", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Cortinas de planta alta. Se retiran desde su riel.",
+    precio:45000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/15-cortinas-pa.jpg"] },
+
+  { n:16, nombre:"Estanterías de madera (planta alta)", categoria:"mobiliario", estado:"muy-bueno",
+    spec:"Estantes de madera de planta alta. Se desmontan de la pared.",
+    precio:40000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/16-estanterias-pa.jpg"] },
+
+  { n:17, nombre:"Estantería de madera (planta baja)", categoria:"mobiliario", estado:"muy-bueno",
+    spec:"Estante de madera de planta baja. Se desmonta de la pared.",
+    precio:30000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/17-estanteria-pb.jpg"] },
+
+  { n:18, nombre:"Tablero eléctrico", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Tablero con térmicas y disyuntor. La desinstalación la hace un electricista.",
+    precio:50000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/18-tablero.jpg"] },
+
+  { n:19, nombre:"Artefacto de iluminación", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Artefacto de iluminación de planta alta. La desinstalación la hace un electricista.",
+    precio:25000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/19-iluminacion.jpg"] },
+
+  { n:20, nombre:"Cortina (planta baja)", categoria:"instalaciones", estado:"muy-bueno",
+    spec:"Cortina de planta baja. Se retira desde su riel.",
+    precio:22000, cantidad:1, vendido:false, pagoUrl:"#",
+    fotos:["fotos/20-cortina-pb.jpg"] },
 ];
