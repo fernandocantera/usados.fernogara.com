@@ -24,7 +24,7 @@ const ITEMS = [
 
   { n:3, nombre:"Mesa desayunador + 4 banquetas", categoria:"mobiliario", estado:"excelente",
     spec:"Mesa alta de 2,30 × 1,00 m con 4 banquetas a juego. Se vende como juego.",
-    precio:240000, cantidad:1, vendido:false, pagoUrl:"https://mpago.la/1k3ebT6",
+    precio:240000, cantidad:1, vendido:true, pagoUrl:"https://mpago.la/1k3ebT6",
     fotos:["fotos/03-desayunador.jpg"] },
 
   { n:4, nombre:'Monitor 24" Samsung', categoria:"tecnologia", estado:"muy-bueno",
@@ -86,7 +86,7 @@ const ITEMS = [
 
   { n:15, nombre:"Cortinas (planta alta)", categoria:"instalaciones", estado:"excelente",
     spec:"Cortinas de planta alta. Se retiran desde su riel.",
-    precio:50000, cantidad:1, vendido:false, pagoUrl:"https://mpago.la/2SGdkGz",
+    precio:50000, cantidad:1, vendido:true, pagoUrl:"https://mpago.la/2SGdkGz",
     fotos:["fotos/15-cortinas-pa.jpg"] },
 
   { n:16, nombre:"Estanterías de madera (planta alta)", categoria:"mobiliario", estado:"muy-bueno",
@@ -111,6 +111,6 @@ const ITEMS = [
 
   { n:20, nombre:"Cortina (planta baja)", categoria:"instalaciones", estado:"excelente",
     spec:"Cortina de planta baja. Se retira desde su riel.",
-    precio:50000, cantidad:1, vendido:false, pagoUrl:"https://mpago.la/2gd5STc",
+    precio:50000, cantidad:1, vendido:true, pagoUrl:"https://mpago.la/2gd5STc",
     fotos:["fotos/20-cortina-pb.jpg"] },
 ];
