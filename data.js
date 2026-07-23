@@ -14,12 +14,12 @@
 const ITEMS = [
   { n:1, nombre:"Silla de escritorio", categoria:"mobiliario", estado:"muy-bueno",
     spec:"Silla ejecutiva con ruedas, respaldo alto. Hay 4 iguales disponibles. Precio por unidad.",
-    precio:48000, cantidad:4, vendido:false, pagoUrl:"https://mpago.la/2Z9VpTb",
+    precio:48000, cantidad:4, vendido:true, pagoUrl:"https://mpago.la/2Z9VpTb",
     fotos:["fotos/01-silla-1.jpg","fotos/01-silla-2.jpg"] },
 
-  { n:2, nombre:"Escritorio 1,00 × 0,82 m", categoria:"mobiliario", estado:"excelente",
+  { n:2, nombre:"Escritorio 1,00 × 0,82 m", categoria:"mobiliario", estado:"muy-bueno",
     spec:"Escritorio de madera y hierro. Hay 4 iguales disponibles. Precio por unidad.",
-    precio:60000, cantidad:4, vendido:false, pagoUrl:"https://mpago.la/32XqhKx",
+    precio:60000, cantidad:4, vendido:true, pagoUrl:"https://mpago.la/32XqhKx",
     fotos:["fotos/02-escritorio-1.jpg","fotos/02-escritorio-2.jpg"] },
 
   { n:3, nombre:"Mesa desayunador + 4 banquetas", categoria:"mobiliario", estado:"excelente",
